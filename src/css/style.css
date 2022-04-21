@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.waktu{
+    
+    width: 170px;
+    height: 50px;
+    transform: translate(-90%,20%);
+    left: -385%;
+    display: flex;
+    top: 50%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.waktu div{
+    position: relative;
+    background: linear-gradient(
+        135deg,
+        yellow,
+        orange,
+        red
+    );
+    height: 100%;
+    width: 70px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px; 
+    border-radius: 60px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    letter-spacing: 2px;
+}
+.waktu span{
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+}
