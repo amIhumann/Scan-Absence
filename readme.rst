@@ -73,6 +73,6 @@ How to use this applications?
 
 1.put this folder inside xampp directory
 
-2.import the database name "saranaprasarana.sql"
+2.import the database name "absensiprakerin.sql"
 
-3.running at port "localhost/LSP/"
+3.running at port "localhost/tugasAbsensi/"
